@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-function App() {
+function HomePage() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-        Hello world
+    <div className="Home">
+        Thi is my curriculum
     </div>
   )
 }
 
-export default App
+export default HomePage

@@ -2,5 +2,240 @@
     "about_me": [
         "",
         ""
+    ],
+    "description": [
+        "Soy graduado de Ingeniaría en Ciencias Informáticas, en la Universidad de las Ciencias Informáticas de La Habana, Cuba.",
+        "Tengo más de 8 años de experiencia en el desarrollo de aplicaciones con el framework de trabajo Android Studio en los lenguajes Java y Kotlin con alrededor de 8 aplicaciones desplegadas.",
+        "Experiencia de 3 años en el trabajo con el framework Flutter, Clean Architecture, patrón Bloc (Cubit), inyector de dependencias con el paquete Get It, Dio para peticiones HTTP, base de datos sqlite con Dfrift etc.",
+        "Experiencia en el trabajo en equipo y uso de Git como controlador de versiones.",
+        "Experiencia base en el desarrollo de APIs con el framework Sprint Boot y creación de scripts con Python",
+        "Experiencia base en el desarrollo de APIs con el framework Express Node JS y Mongo DB",
+        "Actualmente Estudiando React por mi cuenta",
+        "Experiencia en el trabajo con PostgreSQL y SQLite",
+        "He impartido talleres para principiantes sobre el framework Android Studio t Flutter",
+        "Tengo creadas las habilidades de aprender rápidamente y ganas de superarme constantemente."
+    ],
+    "academic_training": "Graduado de Ingeniería en Ciencias Informáticas el 19 de Julio del 2017. Universidad de las Ciencias Informáticas. La Habana, Cuba",
+    "further_raining": [
+        "Cursos de Diplomado en Ciencias de la Información [Facultad de Comunicación, Universidad de La Habana] -- [2019]",
+        "Cursos variados de programación [Autodidacta]"
+    ],
+    "briefcase": [
+        {
+            "technology_id": "native_android",
+            "project_name": "iLex 2.0",
+            "logo_id": "",
+            "description": "Ofrece al usuario desde la comodidad de su dispositivo móvil las leyes más importantes de la legislación cubana.",
+            "string_date": "Diciembre 2017",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "iLex Reforma",
+            "logo_id": "",
+            "description": "La aplicación permite recorrer el proyecto de Constitución y la nueva Constitución párrafo por párrafo. Además, cuenta con un índice para facilitar la búsqueda de artículos en ambos textos. Contiene un buscador por palabras para la nueva Constitución. Además, presenta una serie de artículos tomados de diferentes sitios de la web cubana y una galería donde se muestran infografías con el objetivo de que se entienda mejor el proceso por el que está atravesando el país. En la apk también se pueden encontrar los tabloides originales en formato pdf de la Constitución vigente, del proyecto de Constitución y la nueva Constitución",
+            "string_date": "Enero 2019",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "iLex Notario",
+            "logo_id": "",
+            "description": "Aplicación móvil para conocer todo sobre los servicios notariales de la República de Cuba",
+            "string_date": "Febrero 2020",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "iLex-MINJUS ",
+            "description": "Permite difundir información y prestar servicios en línea, relacionados con la labor que se realiza en las unidades organizativas del MINJUS. Esperamos sea de gran ayuda a todos la solución y en la medida iremos corrigiendo cualquier inconveniente que se pueda presentar.",
+            "string_date": "Febrero 2020",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "Civix ",
+            "description": "Provee al ciudadano una vía más cómoda y confiable para realizar sus trámites con las instituciones de nuestro país, de manera “en línea”. Que sus solicitudes sean atendidas con la mayor brevedad, eficiencia y eficacia posibles, y que en el proceso siempre pueda informársele del estado de su solicitud: cuantas veces el ciudadano lo desee, sin filas de espera, con la mayor transparencia posible, siempre desde la comodidad de un movimiento en la pantalla de su móvil. Aprovechar las bondades de la tecnología para satisfacer necesidades del pueblo es nuestro objetivo. “El Gobierno Electrónico ahora al alcance de su mano”.",
+            "string_date": "Noviembre 2020",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "ilexCuba",
+            "description": "Pone al alcance de todos los cubanos las principales normas jurídicas del país, y muchas facilidades de lectura y búsqueda en los documentos jurídicos.",
+            "string_date": "Diciembre 2021",
+            "images": []
+        },
+        {
+            "technology_id": "flutter",
+            "project_name": "iLex Poder Popular ",
+            "description": "Aplicación en conmemoración al 45 Aniversario de los Órganos del Poder Popular de la República de Cuba. Contiene un compilado con normas jurídicas de interés para la Asamblea Nacional del Poder Popular. Búsquedas especializadas, comentarios en las normas y otras utilidades.",
+            "string_date": "Diciembre 2021",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "Consulta Popular",
+            "description": "Aplicación para consultar el Proyecto de Ley Código de las Familias. Con Consulta Popular usted tiene al alcance de su mano el texto integro del Proyecto de Ley Código de las Familias, con la posibilidad de realizar comentarios en cada párrafo, buscar párrafos por palabras claves, buscar párrafos por su número, listar el índice de la norma entre otras funciones.",
+            "string_date": "Enero 2022",
+            "images": []
+        },
+        {
+            "technology_id": "",
+            "project_name": "",
+            "description": "",
+            "string_date": "",
+            "images": []
+        }
+    ],
+    "technologies": [
+        {
+            "type": "language",
+            "technology_id": "java",
+            "technology_name": "Java",
+            "domain": "high"
+        },
+        {
+            "type": "language",
+            "technology_id": "kotlin",
+            "technology_name": "Kotlin",
+            "domain": "high"
+        },
+        {
+            "type": "language",
+            "technology_id": "dart",
+            "technology_name": "Dart",
+            "domain": "high"
+        },
+        {
+            "type": "language",
+            "technology_id": "python",
+            "technology_name": "Python",
+            "domain": "medium"
+        },
+        {
+            "type": "language",
+            "technology_id": "js_ts",
+            "technology_name": "Java Script / Type Script",
+            "domain": "medium"
+        },
+        {
+            "type": "data_structuring",
+            "technology_id": "html",
+            "technology_name": "HTML",
+            "domain": "high"
+        },
+        {
+            "type": "data_structuring",
+            "technology_id": "json",
+            "technology_name": "Json",
+            "domain": "high"
+        },
+        {
+            "type": "data_structuring",
+            "technology_id": "xml",
+            "technology_name": "XML",
+            "domain": "high"
+        },
+        {
+            "type": "framework",
+            "technology_id": "native_android",
+            "technology_name": "Android nativo",
+            "domain": "high"
+        },
+        {
+            "type": "framework",
+            "technology_id": "flutter",
+            "technology_name": "Flutter",
+            "domain": "high"
+        },
+        {
+            "type": "framework",
+            "technology_id": "spring_boot",
+            "technology_name": "Spring boot",
+            "domain": "medium"
+        },
+        {
+            "type": "framework",
+            "technology_id": "express_js",
+            "technology_name": "Express JS",
+            "domain": "medium"
+        },
+        {
+            "type": "framework",
+            "technology_id": "react_js",
+            "technology_name": "React JS",
+            "domain": "low"
+        },
+        {
+            "type": "framework",
+            "technology_id": "qt_designer",
+            "technology_name": "Qt Designer",
+            "domain": "low"
+        },
+        {
+            "type": "database",
+            "technology_id": "postgres_sql",
+            "technology_name": "Postgres SQL",
+            "domain": "high"
+        },
+        {
+            "type": "database",
+            "technology_id": "sqlite",
+            "technology_name": "SQLite",
+            "domain": "high"
+        },
+        {
+            "type": "database",
+            "technology_id": "mongo_db",
+            "technology_name": "Mongo DB",
+            "domain": "high"
+        },
+        {
+            "type": "version_control",
+            "technology_id": "git",
+            "technology_name": "Git",
+            "domain": "high"
+        },
+        {
+            "type": "compiler",
+            "technology_id": "gradle",
+            "technology_name": "Gradle",
+            "domain": "high"
+        },
+        {
+            "type": "design",
+            "technology_id": "photoshop",
+            "technology_name": "Adobe Photoshop",
+            "domain": "medium"
+        },
+        {
+            "type": "design",
+            "technology_id": "illustrator",
+            "technology_name": "Adobe Illustrator",
+            "domain": "medium"
+        },
+        {
+            "type": "server_tool",
+            "technology_id": "docker",
+            "technology_name": "Docker",
+            "domain": "low"
+        }
+    ],
+    "language": [
+        {
+            "language_id": "es",
+            "language_name": "Español",
+            "writing": "high",
+            "talking": "high",
+            "listening": "high"
+        },
+        {
+            "language_id": "en",
+            "language_name": "English",
+            "writing": "medium ",
+            "talking": "low",
+            "listening": "medium"
+        }
     ]
 }
