@@ -1,25 +1,24 @@
 {
-    "about_me": [
-        "",
-        ""
-    ],
-    "description": [
-        "Soy graduado de Ingeniaría en Ciencias Informáticas, en la Universidad de las Ciencias Informáticas de La Habana, Cuba.",
-        "Tengo más de 8 años de experiencia en el desarrollo de aplicaciones con el framework de trabajo Android Studio en los lenguajes Java y Kotlin con alrededor de 8 aplicaciones desplegadas.",
-        "Experiencia de 3 años en el trabajo con el framework Flutter, Clean Architecture, patrón Bloc (Cubit), inyector de dependencias con el paquete Get It, Dio para peticiones HTTP, base de datos sqlite con Dfrift etc.",
-        "Experiencia en el trabajo en equipo y uso de Git como controlador de versiones.",
-        "Experiencia base en el desarrollo de APIs con el framework Sprint Boot y creación de scripts con Python",
-        "Experiencia base en el desarrollo de APIs con el framework Express Node JS y Mongo DB",
-        "Actualmente Estudiando React por mi cuenta",
-        "Experiencia en el trabajo con PostgreSQL y SQLite",
-        "He impartido talleres para principiantes sobre el framework Android Studio t Flutter",
-        "Tengo creadas las habilidades de aprender rápidamente y ganas de superarme constantemente."
-    ],
-    "academic_training": "Graduado de Ingeniería en Ciencias Informáticas el 19 de Julio del 2017. Universidad de las Ciencias Informáticas. La Habana, Cuba",
-    "further_raining": [
-        "Cursos de Diplomado en Ciencias de la Información [Facultad de Comunicación, Universidad de La Habana] -- [2019]",
-        "Cursos variados de programación [Autodidacta]"
-    ],
+    "about_me": {
+        "profile_picture_id": "",
+        "academic_training": "Graduado de Ingeniería en Ciencias Informáticas el 19 de Julio del 2017. Universidad de las Ciencias Informáticas. La Habana, Cuba",
+        "description": [
+            "Soy graduado de Ingeniaría en Ciencias Informáticas, en la Universidad de las Ciencias Informáticas de La Habana, Cuba.",
+            "Tengo más de 8 años de experiencia en el desarrollo de aplicaciones con el framework de trabajo Android Studio en los lenguajes Java y Kotlin con alrededor de 8 aplicaciones desplegadas.",
+            "Experiencia de 3 años en el trabajo con el framework Flutter, Clean Architecture, patrón Bloc (Cubit), inyector de dependencias con el paquete Get It, Dio para peticiones HTTP, base de datos sqlite con Dfrift etc.",
+            "Experiencia en el trabajo en equipo y uso de Git como controlador de versiones.",
+            "Experiencia base en el desarrollo de APIs con el framework Sprint Boot y creación de scripts con Python",
+            "Experiencia base en el desarrollo de APIs con el framework Express Node JS y Mongo DB",
+            "Actualmente Estudiando React por mi cuenta",
+            "Experiencia en el trabajo con PostgreSQL y SQLite",
+            "He impartido talleres para principiantes sobre el framework Android Studio t Flutter",
+            "Tengo creadas las habilidades de aprender rápidamente y ganas de superarme constantemente."
+        ],      
+        "further_raining": [
+            "Cursos de Diplomado en Ciencias de la Información [Facultad de Comunicación, Universidad de La Habana] -- [2019]",
+            "Cursos variados de programación [Autodidacta]"
+        ]
+    },
     "briefcase": [
         {
             "technology_id": "native_android",
@@ -35,6 +34,22 @@
             "logo_id": "",
             "description": "La aplicación permite recorrer el proyecto de Constitución y la nueva Constitución párrafo por párrafo. Además, cuenta con un índice para facilitar la búsqueda de artículos en ambos textos. Contiene un buscador por palabras para la nueva Constitución. Además, presenta una serie de artículos tomados de diferentes sitios de la web cubana y una galería donde se muestran infografías con el objetivo de que se entienda mejor el proceso por el que está atravesando el país. En la apk también se pueden encontrar los tabloides originales en formato pdf de la Constitución vigente, del proyecto de Constitución y la nueva Constitución",
             "string_date": "Enero 2019",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "Jóvenes en el lente",
+            "logo_id": "",
+            "description": "Aplicación creada con el fin de promocionar el concurso de fotografía Jóvenes en el lente auspiciado por el Centro de Estudios Sobre la Juventud.",
+            "string_date": "Marzo 2019",
+            "images": []
+        },
+        {
+            "technology_id": "native_android",
+            "project_name": "1Cubano 1Nombre",
+            "logo_id": "",
+            "description": "Juego móvil enfocado en fomentar el conocimiento de la Historia de Cuba. La app presenta una serie de personalidades de la etapa de la colonia y neocolonia de Cuba para que el usuario ponga en práctica sus conocimientos sobre la historia.",
+            "string_date": "Junio 2019",
             "images": []
         },
         {
@@ -81,10 +96,52 @@
             "images": []
         },
         {
-            "technology_id": "",
-            "project_name": "",
-            "description": "",
-            "string_date": "",
+            "technology_id": "flutter",
+            "project_name": "iLex Símbolos Nacionales",
+            "description": "Aplicación donde usted podrá obtener información sobre los símbolos nacionales de la República de Cuba, acceso a la Ley No. 128, preguntas frecuentes y un cuestionario interactivo.",
+            "string_date": "Junio 2022",
+            "images": []
+        },
+        {
+            "technology_id": "flutter",
+            "project_name": "Ley de la Comunicación Social",
+            "description": "Aplicación que pone al alcance de todos el Anteproyecto de la Ley de la Comunicación Social. Usted podrá realizar comentarios al Anteproyecto y enviarlos a la Comisión Redactora.",
+            "string_date": "Julio 2022",
+            "images": []
+        },
+        {
+            "technology_id": "flutter",
+            "project_name": "Civix 2.0",
+            "description": "Provee al ciudadano una vía más cómoda y confiable para realizar sus trámites con las instituciones de nuestro país, de manera “en línea”. Que sus solicitudes sean atendidas con la mayor brevedad, eficiencia y eficacia posibles, y que en el proceso siempre pueda informársele del estado de su solicitud: cuantas veces el ciudadano lo desee, sin filas de espera, con la mayor transparencia posible, siempre desde la comodidad de un movimiento en la pantalla de su móvil. Aprovechar las bondades de la tecnología para satisfacer necesidades del pueblo es nuestro objetivo. “El Gobierno Electrónico ahora al alcance de su mano”.",
+            "string_date": "Marzo 2023",
+            "images": []
+        },
+        {
+            "technology_id": "spring_boot",
+            "project_name": "Backend Aplicación Civix",
+            "description": "Micro servicios creados con Spring Boot para la recepción de las peticiones de la aplicación Civix.",
+            "string_date": "Noviembre 2020",
+            "images": []
+        },
+        {
+            "technology_id": "express_js",
+            "project_name": "Backend Aplicación iLexCuba 2.0",
+            "description": "Creado con Express Node JS y Mongo DB se encarga de proporcionar las normas jurídicas a la aplicación iLexCuba 2.0",
+            "string_date": "Marzo 2023",
+            "images": []
+        },
+        {
+            "technology_id": "python",
+            "project_name": "Script de procesamiento de normas jurídicas",
+            "description": "A través de la mineria de texto se encarga de tomar los datos de un archivo .txt que contiene una noma jurídica y lo convierte a un json con ciertas reglas definidas o bien lo agrega a una base de datos SQL. Se utiliza QT design para crear una pequeña UI",
+            "string_date": "Diciembre 2021",
+            "images": []
+        },
+        {
+            "technology_id": "react_js",
+            "project_name": "My Curriculum Vitae",
+            "description": "Aplicación Web para mostrar mi curriculum vitae usando React",
+            "string_date": "Marzo 2023",
             "images": []
         }
     ],
@@ -222,7 +279,7 @@
             "domain": "low"
         }
     ],
-    "language": [
+    "languages": [
         {
             "language_id": "es",
             "language_name": "Español",
