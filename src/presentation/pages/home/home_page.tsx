@@ -1,11 +1,11 @@
-import { FC, useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { AboutMe } from '../../../data/types/about_me';
 import { CurriculumRepositoryContext } from '../../../injector';
-import imageProfile from '../../../assets/images/image-jeremy.png';
 
 import './home_style.scss';
+import { NavLink, Outlet } from 'react-router-dom';
 
-const HomePage: FC = () => {
+function HomePage() {
   const curriculumRepository = useContext(CurriculumRepositoryContext);
   const [aboutMe, setAboutMe] = useState<AboutMe>();
 
@@ -20,28 +20,43 @@ const HomePage: FC = () => {
   }, [aboutMe]);
 
   return (
-    <div className="main-card__user">
-      <img className="main-card__image" src={imageProfile} alt="user-img" />
-      <div>
-        <p className="main-card__name">{aboutMe?.name}</p>
+    <>
+      <div className="navbar">
+        <NavLink
+          to={`/`}
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "active"
+              : ""
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to={`/briefcase`}
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "active"
+              : ""
+          }
+        >
+          Portafolio
+        </NavLink>
+        <NavLink
+          to={`/technologies`}
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "active"
+              : ""
+          }
+        >
+          Tecnologías
+        </NavLink>
       </div>
-      <h3>Formación academica</h3>
-      <p> {aboutMe?.academic_training} </p>
-      <ul>
-        {
-          aboutMe?.description.map((item) => (
-            <li key={item}>{item}</li>
-          ))
-        }
-      </ul>
-      <ul>
-        {
-          aboutMe?.further_raining.map((item) => (
-            <li key={item}>{item}</li>
-          ))
-        }
-      </ul>
-    </div>
+      <div className='home-content'>
+        <Outlet />
+      </div>
+    </>
   )
 }
 

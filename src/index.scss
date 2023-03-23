@@ -5,9 +5,6 @@
 @use './presentation/scss/base/base';
 @use './presentation/scss/base/resets';
 
-.main-container {
-    /* border: 1px solid white; */
-    width: 900px;
-    margin: 20px auto;
+.main-container {  
     position: relative;
 }
