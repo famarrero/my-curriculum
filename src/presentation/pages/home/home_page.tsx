@@ -1,8 +1,9 @@
 import { FC, useState, useEffect, useContext } from 'react';
 import { AboutMe } from '../../../data/types/about_me';
 import { CurriculumRepositoryContext } from '../../../injector';
+import imageProfile from '../../../assets/images/image-jeremy.png';
 
-
+import './home_style.scss';
 
 const HomePage: FC = () => {
   const curriculumRepository = useContext(CurriculumRepositoryContext);
@@ -19,8 +20,12 @@ const HomePage: FC = () => {
   }, [aboutMe]);
 
   return (
-    <div>
-      <h2>About me</h2>
+    <div className="main-card__user">
+      <img className="main-card__image" src={imageProfile} alt="user-img" />
+      <div>
+        <p className="main-card__name">{aboutMe?.name}</p>
+      </div>
+      <h3>Formación academica</h3>
       <p> {aboutMe?.academic_training} </p>
       <ul>
         {

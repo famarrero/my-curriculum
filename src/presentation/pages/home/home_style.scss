@@ -1,0 +1,22 @@
+.main-card__user {
+    background-color: var(--Blue);
+    border-radius: 16px;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-card__image {
+    width: 72px;
+    margin: 10px;
+    border: 3px solid var(--White);
+    border-radius: 50%;
+}
+
+.main-card__name {
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: 300px;
+    color: var(--White);
+}

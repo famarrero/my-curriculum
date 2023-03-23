@@ -1,9 +1,9 @@
 {
     "about_me": {
         "profile_picture_id": "",
-        "academic_training": "Graduado de Ingeniería en Ciencias Informáticas el 19 de Julio del 2017. Universidad de las Ciencias Informáticas. La Habana, Cuba",
+        "name": "Ing. Felix A. Marrero Pentón",
+        "academic_training": "Graduado de Ingeniería en Ciencias Informáticas el 19 de Julio del 2017. Universidad de las Ciencias Informáticas. La Habana, Cuba.",
         "description": [
-            "Soy graduado de Ingeniaría en Ciencias Informáticas, en la Universidad de las Ciencias Informáticas de La Habana, Cuba.",
             "Tengo más de 8 años de experiencia en el desarrollo de aplicaciones con el framework de trabajo Android Studio en los lenguajes Java y Kotlin con alrededor de 8 aplicaciones desplegadas.",
             "Experiencia de 3 años en el trabajo con el framework Flutter, Clean Architecture, patrón Bloc (Cubit), inyector de dependencias con el paquete Get It, Dio para peticiones HTTP, base de datos sqlite con Dfrift etc.",
             "Experiencia en el trabajo en equipo y uso de Git como controlador de versiones.",
